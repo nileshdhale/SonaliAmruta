@@ -16,6 +16,8 @@ public class LoginIntoApplication {
 		
 		driver.manage().window().maximize();
 		System.out.print("........Logged in Successfully......");
+		System.out.print("........Logged in Successfully......");
+		System.out.print("........Logged in Successfully......");
 		driver.close();
 		
 	}@Test
@@ -23,6 +25,11 @@ public class LoginIntoApplication {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shree\\Documents\\Drivers\\chromedriver_win32\\chromedriver.exe");
 		WebDriver	driver= new ChromeDriver();
 		driver.get("https://dev2-app.simplicapital.ai/");
+		System.out.print("........Logged Out Successfully.........");
+		System.out.print("........Logged Out Successfully.........");
+		System.out.print("........Logged Out Successfully.........");
+		System.out.print("........Logged Out Successfully.........");
+		System.out.print("........Logged Out Successfully.........");
 		System.out.print("........Logged Out Successfully.........");
 		
 		driver.manage().window().maximize();
