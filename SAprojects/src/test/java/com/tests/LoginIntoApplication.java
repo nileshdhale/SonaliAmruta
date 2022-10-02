@@ -10,7 +10,7 @@ public class LoginIntoApplication {
 	
 	@Test
 	public void Login() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shree\\Documents\\Drivers\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\Shree\\\\Documents\\\\Drivers\\\\chromedriver_win32\\\\chromedriver.exe");
 		WebDriver	driver= new ChromeDriver();
 		driver.get("https://dev2-app.simplicapital.ai/");
 		
@@ -44,6 +44,16 @@ public class LoginIntoApplication {
 		WebDriver	driver= new ChromeDriver();
 		driver.get("https://dev2-app.simplicapital.ai/");
 		System.out.print("........Inspected Successfully.........");
+		
+		driver.manage().window().maximize();
+		driver.close();
+		
+	}@Test
+	public void FindBy() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shree\\Documents\\Drivers\\chromedriver_win32\\chromedriver.exe");
+		WebDriver	driver= new ChromeDriver();
+		driver.get("https://dev2-app.simplicapital.ai/");
+		System.out.print("........founded Successfully.........");
 		
 		driver.manage().window().maximize();
 		driver.close();
