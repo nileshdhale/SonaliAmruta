@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class LoginIntoApplication {
+public class AllTestCasesGlance {
 	
 	//public WebDriver driver;
 	
@@ -28,9 +28,7 @@ public class LoginIntoApplication {
 		System.out.print("........Logged Out Successfully.........");
 		System.out.print("........Logged Out Successfully.........");
 		System.out.print("........Logged Out Successfully.........");
-		System.out.print("........Logged Out Successfully.........");
-		System.out.print("........Logged Out Successfully.........");
-		System.out.print("........Logged Out Successfully.........");
+		
 		
 		driver.manage().window().maximize();
 		driver.close();
